@@ -1,66 +1,92 @@
-# Go4WorldBusiness Leads Scraper
+# Go4WorldBusiness Buyer Leads Scraper
 
-Extract high-quality buyer leads from **Go4WorldBusiness** quickly and efficiently.
-
-## 💰 Pricing
-
-- **Complete Python Script:** **$30** (One-time purchase)
-- **Lead Extraction Service:** **$1 per 100 profile pages**
-
-> **What is a page?**
->
-> One page = One buyer lead profile.
->
-> Example:
-> https://www.go4worldbusiness.com/buylead/view/1308292/wanted-:-cooking-oil-like-sunflower-oil.html
+Extract structured buyer leads from **Go4WorldBusiness** into CSV, Excel, or Google Sheets.
 
 ---
 
-## 📦 Data Included
+## 📦 What This Scraper Extracts
 
-For every buyer lead, the scraper extracts available information such as:
+For each buyer lead profile, the scraper extracts the following fields:
 
-- Lead URL
-- Buyer Requirement Title
-- Buyer Country
-- Destination Country
-- Posted Date
-- Price Terms
-- Quantity Required
-- Payment Terms
-- Delivery Terms (FOB/CIF/etc.)
-- Target Suppliers
-- Product Name
-- Product Specifications
-- Category & Subcategory
-- Complete Requirement Description
-- And all other available fields on the lead page
+| Field |
+|-------|
+| URL |
+| Title |
+| Buyer From |
+| Destination |
+| Date Posted |
+| Target Price |
+| Quantity Required |
+| Payment Terms |
+| Shipping Terms |
+| Looking for Suppliers From |
+| Product Name |
+| Specifications |
+| Buyer Of |
+| Product Description |
 
-Example output:
+---
 
-| URL | Title | Country | Posted Date | Quantity | Payment | Delivery | Product | Description |
-|------|-------|----------|-------------|----------|----------|-----------|-----------|--------------|
-| https://www.go4worldbusiness.com/buylead/view/1308292/wanted-:-cooking-oil-like-sunflower-oil.html | Wanted: Cooking Oil Like Sunflower Oil | United Arab Emirates | Jul 01, 2026 | 150 Cartons | L/C | CIF | Sunflower Oil | Complete buyer requirement with specifications |
+## 📄 Sample Output
+
+| URL | Title | Buyer From | Destination | Date | Target Price | Quantity Required | Payment Terms | Shipping Terms | Looking for Suppliers From | Product Name | Specifications | Buyer Of | Product Description |
+|------|-------|------------|-------------|------|--------------|------------------|---------------|----------------|----------------------------|--------------|----------------|----------|---------------------|
+| https://www.go4worldbusiness.com/buylead/view/1308292/wanted-:-cooking-oil-like-sunflower-oil.html | Wanted : Cooking Oil Like Sunflower Oil | United Arab Emirates | United Arab Emirates | Jul 01, 2026 | Negotiable | 150 Cartons | L/C | CIF | Worldwide | Cooking Oil | Type: Sunflower Oil | Edible Oils \| Sunflower Oil | Please provide a quotation to the following requirement from importer. Product Name: Cooking Oil. Specifications: Type: Sunflower Oil. Contact via WhatsApp. Packaging Terms: 20 Kg per carton. |
+
+---
+
+## 💰 Pricing
+
+### Python Scraper Script
+**$30** (One-Time Purchase)
+
+Includes:
+- Complete Python source code
+- Easy configuration
+- CSV/Excel export
+- Ready to run
+
+### Data Extraction Service
+**$1 per 100 Buyer Profiles**
+
+> **1 Page = 1 Buyer Lead Profile**
+
+Example:
+
+```
+https://www.go4worldbusiness.com/buylead/view/1308292/wanted-:-cooking-oil-like-sunflower-oil.html
+```
+
+If you need **10,000 buyer profiles**, the extraction cost will be **$100**.
 
 ---
 
 ## ✅ Features
 
-- Fast scraping
-- Clean structured data
-- Supports bulk extraction
-- Excel/CSV compatible output
-- High-quality buyer lead data
+- Fast and reliable scraping
+- Extracts complete buyer lead information
+- Clean CSV/Excel output
+- Google Sheets compatible
+- Handles thousands of profiles
+- Well-structured data
 - Affordable pricing
-- Ready-to-use Python script
+- Easy-to-use Python script
 
 ---
 
-## 📊 Sample Data
+## 📊 Sample Dataset
 
-View a sample of the extracted data here:
+View sample data here:
 
-https://docs.google.com/spreadsheets/d/130ZjIopfzCZpRWmUE1VKRnd3hagFtk-a0kxyCqRWtDQ/edit?gid=1134903674#gid=1134903674
+**https://docs.google.com/spreadsheets/d/130ZjIopfzCZpRWmUE1VKRnd3hagFtk-a0kxyCqRWtDQ/edit?gid=1134903674#gid=1134903674**
+
+---
+
+## 📁 Output Formats
+
+- CSV
+- XLSX (Excel)
+- Google Sheets
 
 ---
 
@@ -68,17 +94,19 @@ https://docs.google.com/spreadsheets/d/130ZjIopfzCZpRWmUE1VKRnd3hagFtk-a0kxyCqRW
 
 | Service | Price |
 |---------|------:|
-| Python Scraper Script | **$30** |
-| Data Extraction | **$1 / 100 Profile Pages** |
+| Complete Python Script | **$30** |
+| Data Extraction | **$1 / 100 Buyer Profiles** |
 
 ---
 
 ## 📧 Contact
 
-Interested in purchasing the script or getting custom lead extraction?
+Interested in purchasing the scraper or getting buyer data extracted?
 
 **Email:** uskingdom362@gmail.com
 
 ---
 
-**Note:** This scraper is intended for data extraction from publicly accessible buyer lead pages. Buyers are responsible for ensuring their usage complies with the target website's Terms of Service and applicable laws.
+## ⚠️ Disclaimer
+
+This scraper is provided for extracting data from publicly accessible buyer lead pages. Users are responsible for ensuring that their use complies with Go4WorldBusiness's Terms of Service and all applicable laws and regulations.
